@@ -1,0 +1,5 @@
+<div class="grid grid-cols-3 gap-10">
+  <% Book.all.each do |book| %>
+    <%= render "book_card", book: book %>
+  <% end %>
+</div>

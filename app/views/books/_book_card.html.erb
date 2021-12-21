@@ -1,0 +1,16 @@
+<div class="mx-2 shadow-lg card compact side">
+  <figure>
+    <%= image_tag book_image_url(book), alt: 'book cover image', class: 'max-w-2 mask mask-square' %>
+  </figure>
+  <div class="card-body">
+    <h2 class="bg-secondary card-title"><%= book.title %></h2>
+    <h3 class="bg-primary-focus card-title"><%= book.author %></h3>
+    <div class="badge badge-primary"><%= book.genre %></div>
+    <p class="my-2">
+      <%= book.description %>
+    </p>
+    <div class="justify-end card-actions">
+      <button class="btn btn-secondary">Read Reviews</button>
+    </div>
+  </div>
+</div>
