@@ -5,7 +5,7 @@ ruby "3.0.3"
 
 # rails/postgres/puma/redis
 gem "pg", "~> 1.1"
-gem "puma", "~> 5.0"
+gem "puma", "~> 5.6"
 gem "rails", "~> 7"
 gem "redis", "~> 4.0"
 
