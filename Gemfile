@@ -23,7 +23,7 @@ gem "turbo-rails", ">= 0.9.0"
 gem "jbuilder", "~> 2.11"
 
 # automatically process images for active storage
-gem "image_processing", "~> 1.2"
+gem "image_processing", "~> 1.12"
 
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 
